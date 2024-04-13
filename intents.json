@@ -1,0 +1,126 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Kifak",
+        "Is anyone there?",
+        "Marhaba",
+        "Yom sa3id"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Marhaba, shukran 3ala el ziyara",
+        "Marhaba, shu baddak?",
+        "Marhaba, kif fine se3dak?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Maa as-salama"],
+      "responses": [
+        "Shoofak ba3dain, shukran 3ala el ziyara",
+        "Yom sa3id",
+        "Bye! Ta3al qareeban."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Hayda moufid!", "Thanks a lot!", "Merci"],
+      "responses": ["Mabsout sa3id!", "Any time!", "3ala rasi"]
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": [
+        "Shu huwa machine learning?",
+        "Btefham machine learning?",
+        "Khalini a3ref 3an ML",
+        "Fasserle machine learning",
+        "Chou ya3ne ML"
+
+      ],
+      "responses": [
+        "Machine learning huwa far3 min el intelligence elli 7assalit 3ala el computer biyeshteghil bi tasks bla ma ykun mu3ayyan bi-tareeq wadi7.",
+        "Fil machine learning, el algorithms bi3refon yishteghilu 3a data, bi3rifon minna, w bi-khodu qarar aw ta3leem bas 3ala el analysis."
+      ]
+    },
+    {
+      "tag": "image_captioning",
+      "patterns": [
+        "Shu huwa image captioning?",
+        "Fasserle image captioning",
+        "Kif bitwassil image captioning?",
+        "Fasserle image captioning",
+        "Chou ya3ne image captioning?"
+
+      ],
+      "responses": [
+        "Image captioning huwa el process li b talli3 description textual 3an el mawdu3at elli f el sura.",
+        "Fil image captioning, model bit3allam yifham el mawdu3 el visual bi-sura w ytalli3 description bil-lugha natural 3anha."
+      ]
+    },
+    {
+      "tag": "machine_learning_tools",
+      "patterns": [
+        "Shu el tools el mosta3malin fi machine learning?",
+        "Mumkin ta3tine tools ML?",
+        "Ayy tools btesta3mul fi ML?"
+      ],
+      "responses": [
+        "Some popular machine learning tools include TensorFlow, PyTorch, scikit-learn, w Keras.",
+        "Fi machine learning, mumkin testa3mul tools metel Jupyter Notebook, Pandas, NumPy, w Matplotlib lal-analysis w el visualization el data."
+      ]
+    },
+    {
+      "tag": "image_captioning_tools",
+      "patterns": [
+        "Shu el tools el musta3malin fi image captioning?",
+        "Ay software ahsan l-image captioning?",
+        "Mumkin ta3tine image captioning tools?"
+      ],
+      "responses": [
+        "Common tools l-image captioning shamil TensorFlow's Object Detection API, PyTorch's torchvision library, w OpenCV lal-image processing.",
+        "Lal-image captioning tasks, mumkin testa3mul pretrained models metel Show and Tell, Transformer-based architectures metel BERT, w neural networks custom trained 3ala datasets image-caption."
+      ]
+    },
+    {
+      "tag": "transfer_learning",
+      "patterns": [
+        "Shu huwa transfer learning?",
+        "Btefham transfer learning",
+        "Kif byeshteghil transfer learning?",
+        "Fasserle transfer learning"
+      ],
+      "responses": [
+        "Transfer learning huwa technique machine learning 3andaha model 3am bi3awed 3ala task wa7ad w bitabi2 start point 3ala model 3ala task tene.",
+        "Fil transfer learning, el 3elm elli bi2rab min el hall el problem wahid bitishteghil 3ala el problem el tene related, bil-3adet bil-7araq w el wa2t fil-tareef."
+      ]
+    },     
+    {
+      "tag": "funny",
+      "patterns": [
+        "3atine nekte",
+        "3atine shi bi da7ik",
+        "Bta3rif joke?"
+      ],
+      "responses": [
+        "ATTENDANCEEE!!",
+        "3ana iteration 4 lal tanen"
+      ]
+    },
+    {
+      "tag": "functionality",
+      "patterns": [
+        "Shu elak 3aze?",
+        "Shu bta3mul?",
+        "Enta min?"
+      ],
+      "responses": [
+        "Ana bred 3alek bl arabizi w ba3melak image captioning",
+        "Ana ChatBot bta7ke ma3e w bred 3alek bl 3arabe"
+      ]
+    }
+  ]
+}
